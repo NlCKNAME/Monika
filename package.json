@@ -1,0 +1,36 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "coin-hive": "^1.10.0",
+    "discord-youtube-api": "^0.1.0",
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "discord.js-musicbot-addon": "^11.0.3",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "giph": "^1.0.0",
+    "giphy-api": "^1.2.7",
+    "giphy-js-sdk-core": "^1.0.3",
+    "giphy-random": "^1.0.5",
+    "google-translate-api": "^2.3.0",
+    "got": "^8.3.1",
+    "http": "0.0.0",
+    "mocha": "^5.2.0",
+    "nexe": "^2.0.0-rc.29",
+    "node-fetch": "^2.2.0",
+    "opusscript": "0.0.6",
+    "querystring": "^0.2.0",
+    "term-img": "^2.1.0",
+    "youtube-playlist-info": "^1.1.2",
+    "ytdl-core": "^0.20.4"
+  }
+}
