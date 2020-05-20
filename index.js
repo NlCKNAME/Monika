@@ -10,7 +10,7 @@ const path = require('path');
 const client = new CommandoClient({
     commandPrefix: '>_',
     unknownCommandResponse: false,
-    owner: '303293576211857409',
+    owner: 'ID_OWNER',
     disableEveryone: true
 });
 const translate = require('google-translate-api');
@@ -31,7 +31,7 @@ const cara = {
 
 
 Music.start(client, {
-  youtubeKey: 'AIzaSyDVcu8G_DpEjrSARq4dqvLDB5x8hGJMNUo'
+  youtubeKey: 'ID_KEY'
 });
 
 client.registry
@@ -49,7 +49,7 @@ client.on('ready', () => {
     client.user.setActivity('vec du Python');
 });
 
-client.login('MzUyNTA3NDUyMzU4NjU2MDAx.DqZ3LA.hn8HFo8ccCVYcxYqbXhvTKcItOE');
+client.login('ID_BOT');
 
 require('events').EventEmitter.defaultMaxListeners = 20;
 
